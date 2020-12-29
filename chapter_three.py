@@ -116,7 +116,7 @@ names = ['Liam',
 for name in names:
 	msg = "Hello to you, " + name.title() + "!"
 	print(msg)
-	
+
 # list of motorcycle brands
 
 vehicle_brands = ['honda','suzuki','yamaha','kawasaki','mitsubishi']
@@ -126,4 +126,5 @@ vehicle_brands = ['honda','suzuki','yamaha','kawasaki','mitsubishi']
 for brand in vehicle_brands:
 	second_msg = "My favorite transportation is a " + brand.title() + " motorcycle!"
 	print(second_msg)
-	
+
+# fourth attempt
