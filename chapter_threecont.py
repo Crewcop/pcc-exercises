@@ -13,6 +13,7 @@ guest_list = ['Liam',
 'Alexander'
 ]
 
-for guest in guest_list:
-    message = "Please come to my dinner " + guest.title() + "."
-    print(message)
+# for guest in guest_list:
+#     message = "Please come to my dinner " + guest.title() + "."
+#     print(message)
+print('hello')
