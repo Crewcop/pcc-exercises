@@ -14,5 +14,11 @@ guest_list = ['Liam',
 ]
 
 for guest in guest_list:
-    message = "Please come to my dinner " + guest.title() + "."
+    message = "Please come to my dinner " + guest.title() + ".\n"
     print(message)
+
+# 3-5
+print("I hear Oliver is not coming, now Gus is coming.")
+print(guest_list)
+guest_list[2] = 'Gus'
+print(guest_list)
