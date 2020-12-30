@@ -42,3 +42,29 @@ guest_list.append('Barry')
 for guest in guest_list:
     message = "Please come to my dinner " + guest.title() + ".\n"
     print(message)
+
+# 3-7
+# inform people of the bad news
+print("I am sorry to all guests, the desk has been broken," +
+" we are only sitting 2 guests.\n")
+
+# initial variable for length of list
+guest_list_length = len(guest_list)
+
+# pop command each person out of the list print them a message
+for guest in guest_list:
+	while guest_list_length > 2:
+		popped_guest = guest_list.pop()
+		print("Sorry " + popped_guest +
+		", you cannot come to the dinner.\n")
+		guest_list_length = len(guest_list)
+
+# Send invitations out
+for guest in guest_list:
+    message = "Please come to my dinner " + guest.title() + ".\n"
+    print(message)
+
+#removing the last 2 people form the list using del command
+print(guest_list)
+del guest_list[:]
+print(guest_list)
