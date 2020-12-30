@@ -27,3 +27,18 @@ print()
 for guest in guest_list:
     message = "Please come to my dinner " + guest.title() + ".\n"
     print(message)
+
+# 3-6
+#add 3 more guests to the guest_list
+print('We have 3 more spots free at the dining table.\n')
+# start of list
+guest_list.insert(0, 'Harry')
+# middle of list
+middle = int(len(guest_list)/2)
+guest_list.insert(middle, 'Larry')
+# end of list
+guest_list.append('Barry')
+
+for guest in guest_list:
+    message = "Please come to my dinner " + guest.title() + ".\n"
+    print(message)
