@@ -1,0 +1,63 @@
+# 4-10
+
+pizza_types = ['HOUSE SPECIAL',
+'MEAT LOVERS',
+'DELUXE',
+'VEGGI',
+'HAWAIIAN',
+'PEPPERONI',
+'FOUR CHEESE',
+'MEXICIAN',
+'GREEK',
+'CHICKEN DELUXE'
+]
+
+# First 3 items in this list are
+print(pizza_types[:3])
+
+# The middle 3 items in the list
+print(pizza_types[1:4])
+
+# Last 3 items in the list
+print(pizza_types[-3:])
+
+# 4-11
+pizza_types = ['HOUSE SPECIAL',
+'MEAT LOVERS',
+'DELUXE',
+'VEGGI',
+'HAWAIIAN',
+'PEPPERONI',
+'FOUR CHEESE',
+'MEXICIAN',
+'GREEK',
+'CHICKEN DELUXE'
+]
+friend_pizzas =[]
+friend_pizzas = pizza_types[:]
+
+# add new pizza to original list or new list
+pizza_types.append('lamb')
+friend_pizzas.append('yolo')
+# using for loops printout each list
+print("\nMy favorite pizzas are :")
+for pizza_type in pizza_types:
+	print(pizza_type)
+print('\nMy friends favorite pizza types are :')
+for friend_pizza in friend_pizzas:
+	print(friend_pizza)
+
+# 4-13
+# make a tuple
+five_basic_foods = ('carrots',
+'onions', 'celery', 'sprouts',
+'potatoes')
+
+for food in five_basic_foods:
+	print('\n' + food)
+
+five_basic_foods = ('kale',
+'artichoke')
+
+for food in five_basic_foods:
+	print('\n' + food)
