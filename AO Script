@@ -1,0 +1,92 @@
+03/04/2019
+script is
+[22:25]
+/assist %1
+/delay 1000
+/aa %1
+[22:25]
+call it "aa"
+[22:25]
+without " ofc
+
+03/04/2019
+thats what I'm using 
+
+03/04/2019
+then you write /aa "name"
+
+03/04/2019
+aa.txt
+
+03/04/2019
+you have to make it non .txt
+
+03/04/2019
+cause the file was called aa.txt
+
+u03/04/2019
+have to remove the .txt
+
+03/04/2019
+ok
+
+03/04/2019
+and make it a blank file
+[22:26]
+after that it should work with /aa "name" and /stop to stop
+
+03/04/2019
+ok great I'll work on it, not sure how to get rid of an extension but thats what google is for 
+
+03/04/2019
+in your explorer window
+[22:28]
+hit view
+[22:28]
+and theres a checker box for file name extensions
+[22:28]
+hit that and you're good to go
+
+03/04/2019
+perfect thanks
+
+03/04/2019
+If you dont have a script in your folder called stop
+[22:28]
+then you need to make that too
+[22:29]
+it just needs to be blank
+[22:29]
+and called stop
+
+03/04/2019
+called stop and inside it is /stop
+
+03/04/2019
+Mines just blank i belive
+
+03/04/2019
+oh ok
+
+03/04/2019
+Are you using new or old client btw?
+
+03/04/2019
+old
+
+03/04/2019
+alright good
+
+03/04/2019
+that worked perfect
+
+03/04/2019
+new can bug
+
+03/04/2019
+u r smart
+[22:30]
+all fixed 
+
+03/04/2019
+good, now just bind all your perks etc to a button (we use f) and smash away :p
